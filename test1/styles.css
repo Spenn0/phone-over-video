@@ -53,5 +53,6 @@ button:hover {
 #playButton.active {
     /* color: #0077a2; */
     color: #ffff;
+    cursor: hand;
     
   }
