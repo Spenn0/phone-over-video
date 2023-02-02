@@ -12,13 +12,15 @@ video {
 
   }
 
-  button {
+#playButton{
     display: none;
-    background-color: #666;
+    /* background-color: #666; */
     border: medium none;
-    color: #fff;
+    /* color: #fff; */
+    color: #0077a2;
     display: block;
-    font-size: 18px;
+    /* font-size: 30px; */
+    height: 90px;
     padding: 8px 16px;
     position: absolute;
     top:415px;
@@ -45,9 +47,11 @@ video {
     height:1000px;
     z-index: -1;
 }
-video:hover + button:hover {
+button:hover {
     display:block
 }
-button.active {
-    background-color: #0077a2;
+#playButton.active {
+    /* color: #0077a2; */
+    color: #ffff;
+    
   }

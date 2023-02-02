@@ -5,7 +5,9 @@ body{
 video {
     height:70vh;
     z-index: -2;
-    position: relative;
+    display:block;
+    /* position: relative; */
+    /* top:1em; */
     /* left: 2.5vw; */
     /* margin-left: 3vw; */
     /* padding-left: 3vw; */
@@ -20,7 +22,7 @@ video {
 
   button {
     display: none;
-    background-color: #666;
+    /* background-color: #666; */
     border: medium none;
     color: #fff;
     display: block;
