@@ -1,25 +1,14 @@
-body{
-  
-
-}
 video {
-
     height:700px;
     z-index: -2;
- 
     margin-top: 80px;
     margin-left: 47px;
-
   }
 
 #playButton{
-    /* display: none; */
-    /* background-color: #666; */
     border: medium none;
-    /* color: #fff; */
     color: #0077a2;
     display: block;
-    /* font-size: 30px; */
     height: 90px;
     padding: 8px 16px;
     position: absolute;
@@ -33,12 +22,8 @@ video {
 }
 #pauseButton{
     display: none;
-    /* background-color: #666; */
     border: medium none;
-    /* color: #fff; */
     color: #0077a2;
-    /* display: block; */
-    /* font-size: 30px; */
     height: 90px;
     padding: 8px 16px;
     position: absolute;
@@ -53,19 +38,11 @@ video {
 #container {
     height:600px;
     width: 300px;
-    /* width: 50vw;
-    height: 50vh; */
     margin-left:14px;
     display: flex;
 }
 #phone {
-    position: relative;
-    /* top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0; */
-    /* width: ; */
-    /* height: 160%; */
+    position: absolute;
     width: 573px;
     height:1000px;
     z-index: -1;
@@ -74,7 +51,6 @@ button:hover {
     display:block
 }
 .active {
-    /* color: #0077a2; */
     color: #ffff;
     cursor: hand;
   }
